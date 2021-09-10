@@ -1,0 +1,90 @@
+.toolbar{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: black;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.buttonsSection{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#bt2:focus {
+    border: 3px solid lightgreen;
+}
+
+#bt:focus{
+    border: 3px solid rgba(247, 164, 133, 0.932);
+}
+
+#bt{
+    background-color: rgba(255, 94, 0, 0.986);
+    color: white;
+    border-radius: 15px;
+    border:none;
+    height:40px;
+    width:75px;
+}
+
+#bt2{
+    background-color: rgb(3, 122, 67);
+    color: white;
+    border-radius: 15px;
+    border:none;
+    height:40px;
+    width:75px;
+}
+
+
+IMG.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+#pictureSection{
+    float:left;
+    margin-left: 100px; 
+}
+
+#labelSection{
+    color: white;
+    float:right;
+    margin-right: 150px;
+}
+
+table {
+    margin:auto;
+    width: 60%;
+}
+
+.positive{
+    background-color: rgb(186, 238, 151);
+}
+
+.negative{
+    background-color: white;
+}
+
+.mat-header-cell{
+    background-color: rgb(255, 233, 215);
+    text-align: center;
+}
+
+.mat-cell{
+    text-align: center;
+}
